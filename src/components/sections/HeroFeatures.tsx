@@ -63,6 +63,8 @@ export const HeroFeatures = () => {
               src={frameImg}
               alt="main frame and logo"
               className="h-auto rounded-lg object-cover"
+              loading="eager"
+              decoding="async"
             />
           </div>
 
@@ -93,27 +95,36 @@ export const HeroFeatures = () => {
                 src={paypalImg}
                 alt="PayPal"
                 className="h-[24px] opacity-100 cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 src={visaImg}
                 alt="Visa"
                 className="h-[24px] opacity-100 cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 src={mastercardImg}
                 alt="Mastercard"
                 className="h-[24px] opacity-100 cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
-
               <img
                 src={applepayImg}
                 alt="Apple Pay"
                 className="h-[24px] opacity-100 cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 src={googlepayImg}
                 alt="Google Pay"
                 className="h-[24px] opacity-100 cursor-pointer"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

@@ -77,6 +77,8 @@ export const Statistics = () => {
               src={dogWithProduct}
               alt="Happy dog with premium dog food"
               className="w-full max-w-[500px] min-h-[470px] h-auto rounded-lg object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

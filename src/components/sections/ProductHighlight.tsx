@@ -13,6 +13,8 @@ export const ProductHighlight = () => {
               src={dogsEating}
               alt="Dogs enjoying their meal"
               className="w-full max-w-[570px] min-h-[470px] h-auto rounded-lg object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 

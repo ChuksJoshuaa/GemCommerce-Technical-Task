@@ -27,6 +27,8 @@ export const Benefits = () => {
               src={kibbleBackground}
               alt="Premium dog food kibble"
               className="w-full max-w-[570px] min-h-[470px] h-auto rounded-lg object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
