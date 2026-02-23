@@ -1,6 +1,6 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/blur.css'
-import kibbleBackground from '../../assets/images/kibble-background.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { kibbleBackgroundImg } from '../../types/data';
 
 export const Benefits = () => {
   return (
@@ -26,7 +26,7 @@ export const Benefits = () => {
 
           <div className="flex-1">
             <LazyLoadImage
-              src={kibbleBackground}
+              src={kibbleBackgroundImg}
               alt="Premium dog food kibble"
               effect="blur"
               className="w-full max-w-[570px] min-h-[470px] h-auto rounded-lg object-cover"

@@ -1,6 +1,6 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
-import dogWithProduct from '../../assets/images/dog-with-product.png'
+import { dogProductImg } from '../../types/data'
 import { Button } from '../ui/Button'
 
 interface StatItemProps {
@@ -76,7 +76,7 @@ export const Statistics = () => {
             className="flex-1 flex justify-center"
           >
             <LazyLoadImage
-              src={dogWithProduct}
+              src={dogProductImg}
               alt="Happy dog with premium dog food"
               effect="blur"
               className="w-full max-w-[500px] min-h-[470px] h-auto rounded-lg object-cover"
