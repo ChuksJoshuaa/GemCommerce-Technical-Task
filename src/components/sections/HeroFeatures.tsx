@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import applepayImg from "../../assets/images/applepay.png"
 import frameImg from "../../assets/images/frame.png"
 import googlepayImg from "../../assets/images/googlepay.png"
@@ -59,12 +61,11 @@ export const HeroFeatures = () => {
           </div>
 
           <div>
-            <img
+            <LazyLoadImage
               src={frameImg}
               alt="main frame and logo"
+              effect="blur"
               className="h-auto rounded-lg object-cover"
-              loading="eager"
-              decoding="async"
             />
           </div>
 
@@ -91,40 +92,35 @@ export const HeroFeatures = () => {
               <span className="font-normal">30-day money back guarantee</span>
             </div>
             <div className="flex items-center gap-3 mt-2">
-              <img
+              <LazyLoadImage
                 src={paypalImg}
                 alt="PayPal"
+                effect="blur"
                 className="h-[24px] opacity-100 cursor-pointer"
-                loading="lazy"
-                decoding="async"
               />
-              <img
+              <LazyLoadImage
                 src={visaImg}
                 alt="Visa"
+                effect="blur"
                 className="h-[24px] opacity-100 cursor-pointer"
-                loading="lazy"
-                decoding="async"
               />
-              <img
+              <LazyLoadImage
                 src={mastercardImg}
                 alt="Mastercard"
+                effect="blur"
                 className="h-[24px] opacity-100 cursor-pointer"
-                loading="lazy"
-                decoding="async"
               />
-              <img
+              <LazyLoadImage
                 src={applepayImg}
                 alt="Apple Pay"
+                effect="blur"
                 className="h-[24px] opacity-100 cursor-pointer"
-                loading="lazy"
-                decoding="async"
               />
-              <img
+              <LazyLoadImage
                 src={googlepayImg}
                 alt="Google Pay"
+                effect="blur"
                 className="h-[24px] opacity-100 cursor-pointer"
-                loading="lazy"
-                decoding="async"
               />
             </div>
           </div>

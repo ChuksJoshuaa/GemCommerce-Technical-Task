@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import dogsEating from '../../assets/images/dogs-eating.gif'
 
 export const ProductHighlight = () => {
@@ -9,12 +11,11 @@ export const ProductHighlight = () => {
       <div className="px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 flex justify-center">
-            <img
+            <LazyLoadImage
               src={dogsEating}
               alt="Dogs enjoying their meal"
+              effect="blur"
               className="w-full max-w-[570px] min-h-[470px] h-auto rounded-lg object-cover"
-              loading="lazy"
-              decoding="async"
             />
           </div>
 
