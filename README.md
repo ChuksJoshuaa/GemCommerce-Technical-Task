@@ -2,6 +2,8 @@
 
 A responsive product landing page for a premium dog food brand, built with React, TypeScript, Tailwind CSS v4, and Vite.
 
+<img src="https://res.cloudinary.com/chuksmbanaso/image/upload/v1771839378/Screenshot_2026-02-23_at_10.33.26_j653ux.png" title="Image" alt="image" height="50%">
+
 ## Tech Stack
 
 - **React 19** - UI library
